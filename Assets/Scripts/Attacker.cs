@@ -6,7 +6,7 @@ public class Attacker : MonoBehaviour
 {
 
     [Range(0f, 5f)]
-    float currentSpeed = 1f;
+    public float currentSpeed;
 
     void Update()
     {
