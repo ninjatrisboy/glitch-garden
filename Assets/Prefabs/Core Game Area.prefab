@@ -70,5 +70,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62b5160825fc4a218542e7a4665f1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cactusDefender: {fileID: 6111196635328348230, guid: 69ee98663eaa14ab0880cc54efacf10d,
-    type: 3}

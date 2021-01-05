@@ -6,13 +6,19 @@ public class DefenderSpawner : MonoBehaviour
 
 {
 
-    [SerializeField] GameObject cactusDefender;
+    GameObject defender;
 
     private void OnMouseDown()
 
     {
         SpawnDefender(GetSquareClicked());
     }
+
+    public void SetSelectedDefender(GameObject selectedDefender)
+    {
+        defender = selectedDefender;
+    }
+
 
     private Vector2 GetSquareClicked()
 
@@ -36,7 +42,7 @@ public class DefenderSpawner : MonoBehaviour
     private void SpawnDefender(Vector2 roundedPos)
 
     {
-        GameObject newDefender = Instantiate(cactusDefender, roundedPos, Quaternion.identity) as GameObject;
+        GameObject newDefender = Instantiate(defender, roundedPos, Quaternion.identity) as GameObject;
         Debug.Log(roundedPos);
     }
 }
