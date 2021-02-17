@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class DefenderButton : MonoBehaviour
 {
-    
+
     [SerializeField] Defender defenderPrefab;
 
     private void OnMouseDown()
     {
-
         var buttons = FindObjectsOfType<DefenderButton>();
         foreach (DefenderButton button in buttons)
         {

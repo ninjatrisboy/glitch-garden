@@ -120,6 +120,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &346051320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 346051320, guid: cef36c2a6f6b14e1fa8cf52e2f8f659e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716388786}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b0835d40f9e42d98e7b41bddc60b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &531310709 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7422248869840631150, guid: f6baca3b96843492ba2a12eda68a481f,
@@ -199,11 +211,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus
       objectReference: {fileID: 0}
-    - target: {fileID: 7950799410416120580, guid: 69ee98663eaa14ab0880cc54efacf10d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.34
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69ee98663eaa14ab0880cc54efacf10d, type: 3}
 --- !u!1001 &1716388786
@@ -275,6 +282,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef36c2a6f6b14e1fa8cf52e2f8f659e, type: 3}
+--- !u!114 &1907862073 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1907862073, guid: 69ee98663eaa14ab0880cc54efacf10d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1057166788}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b0835d40f9e42d98e7b41bddc60b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &289331599084043222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,11 +455,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1049834104852963571, guid: 5ee00ac77f16a4b3896324835a2f2431,
-        type: 3}
-      propertyPath: m_UsedByComposite
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ee00ac77f16a4b3896324835a2f2431, type: 3}
 --- !u!1001 &6053166802421073308
@@ -450,6 +464,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 976672049, guid: f6baca3b96843492ba2a12eda68a481f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7422248869840631146, guid: f6baca3b96843492ba2a12eda68a481f,
         type: 3}
       propertyPath: m_Name
@@ -588,6 +606,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1021101370, guid: 18ce6d290c8db44b6bc3d40db7a8a9cf, type: 3}
+      propertyPath: defenderPrefab
+      value: 
+      objectReference: {fileID: 1907862073}
+    - target: {fileID: 1429095749, guid: 18ce6d290c8db44b6bc3d40db7a8a9cf, type: 3}
+      propertyPath: defenderPrefab
+      value: 
+      objectReference: {fileID: 346051320}
     - target: {fileID: 8984784492680593401, guid: 18ce6d290c8db44b6bc3d40db7a8a9cf,
         type: 3}
       propertyPath: m_Name
